@@ -1,0 +1,648 @@
+/*-----------------------------------------navbar-----------------------------------------------*/
+.navbar-brand{
+	margin-left: 300px;}
+.logo{
+	width: 200px;
+}
+html{
+	scroll-behavior: smooth;
+}
+.navbar{
+	background-color: transparent;
+}
+
+/*------------------------------------------fin navbar-----------------------------------------*/
+body{
+	background-color: #000;
+	background: url(camaras/pizarron.jpg);
+	background-size: cover;
+}
+/*----------------------------------Meisoluciones----------------------------------------------*/
+.container-general{
+	margin-bottom: 30px;
+}
+.container-fondo{
+	background:linear-gradient(rgba(5,7,12,0.30),rgba(5,7,12,0.30)),
+    url('camaras/fondo opcion2.jpg');
+	background-size: cover;
+	height: 900px;
+	margin-bottom: 10px;
+	border-radius: 40px;
+}
+.sello{
+	float: right;
+	margin-top: -200px;
+	margin-right: 250px;
+	transition:0.6s;
+	object-fit:cover;
+}
+	.sello:hover{
+		transform:scale(1.3)
+}
+.logo-s{
+	width: 250px;
+	margin-top: 60px;
+	margin-left: 40px;
+}
+.holding-tension{
+	font-weight:bold;
+	font-size: 25px;
+	line-height: 1.5;
+    margin-top: 110px;
+	justify-content:left ;
+	color: white;
+	width: 700px;
+	margin-left: 100px;
+}
+.mei{
+	margin-top: 120px;
+	margin-left: 9px;
+	background-color: blue;
+	padding: 30 30;
+	border-radius: 10px;
+	width: 1400px;
+}
+.title-mei{
+	margin-top: 50px;
+	color: white;
+	text-align: center;
+}
+.button-mei{
+	color: #f6f6fa;
+	text-decoration: none;
+	background-color:#1827a9;
+	font-size: 1.25em;
+	display: inline-block;
+	margin-top: 150px;
+	margin-left: 12px;
+	border-radius: 12px;
+	width: 1400px;
+	box-shadow: 0px 3px 0px #1827a9;
+	justify-content: center;
+	
+}
+/*----------------------------------------------2 PRODUCTOS Y SERVICIOS--------------------------------------------------*/
+
+.fondob{
+	background:linear-gradient(rgba(5,7,12,0.30),rgba(5,7,12,0.30)),
+	url('camaras/fondo opcion2.jpg');
+	background-size: cover;
+	height: 900px;
+	margin-bottom: 10px;
+	border-radius: 40px;
+}
+.multimetro{
+	width: 500px;
+	margin-right: 90px;
+	margin-top: -600px;
+	float: right;
+	transition:0.6s;
+	object-fit:cover;
+}
+.multimetro:hover{
+		transform:scale(1.2)
+}
+.holding-servicios{
+	font-weight:bold;
+	font-size: 20px;
+	line-height: 1.5;
+    margin-top: 100px;
+	justify-content:left;
+	color: white;
+	width: 1000px;
+	margin-left: 100px;
+}
+.productos{
+	margin-top: 70px;
+	margin-left: 9px;
+	background-color: blue;
+	padding: 30 30;
+	border-radius: 10px;
+	width: 1400px;
+}
+.title-productos{
+    color: white;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.button-productos{
+	color: #f6f6fa;
+	text-decoration: none;
+	background-color:#1827a9;
+	font-size: 1.25em;
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 12px;
+	border-radius: 12px;
+	width: 1400px;
+	box-shadow: 0px 3px 0px #1827a9;
+	justify-content: center;
+}
+/*----------------------------------------------3 CABLEADO ESTRUCTURADO---------------------------------------------------*/
+
+.fondoc{
+	background:linear-gradient(rgba(5,7,12,0.5),rgba(5,7,12,0.5)),
+	url('camaras/fondo opcion2.jpg');
+	background-size: cover;
+	height: 900px;
+	margin-bottom: 10px;
+	border-radius: 40px;
+}
+.holding-cableado{
+	font-weight:bold;
+	font-size: 20px;
+	line-height: 1.5;
+	text-align: center;
+	color:white;
+	width: 600px;
+	margin-left: 400px;
+	margin-top: 30px;
+}
+.redes{
+	width: 340px;
+	display: flex;
+	float: left;
+	margin-top: -120px;
+	margin-left: 80PX;
+	transition:0.6s;
+	object-fit:cover;
+}
+.redes:hover{
+		transform:scale(1.2)
+
+}
+.interruptores{
+	width: 320px;
+	display: flex;
+	margin-top: -30px;
+	margin-right: 100px;
+	float: right;
+	transition:0.6s;
+	object-fit:cover;
+}
+.interruptores:hover{
+		transform:scale(1.2)
+
+}
+.cableado-e{
+	margin-top: 100px;
+	margin-left: 50px;
+	background-color: blue;
+	padding: 30 30;
+	border-radius: 10px;
+	width: 1400px;
+	
+}
+.title-cableado{
+	color: white;
+	margin-top: 50px;
+	margin-left: 420px;
+}
+.button-cableado{
+	color: #f6f6fa;
+	text-decoration: none;
+	background-color:#1827a9;
+	font-size: 1.25em;
+	display: inline-block;
+	margin-top: 70px;
+	margin-left: 12px;
+	border-radius: 12px;
+	width: 1400px;
+	box-shadow: 0px 3px 0px #1827a9;
+	justify-content: center;
+}
+/*----------------------------------------------4 CABLEADO ELECTRICO E ILUMINACION --------------------------------------*/
+.fondod{
+	background:linear-gradient(rgba(5,7,12,0.30),rgba(5,7,12,0.30)),
+	url('camaras/fondo opcion2.jpg');
+	background-size: cover;
+	height: 900px;
+	margin-bottom: 10px;
+	border-radius: 40px;
+}
+.holding-iluminacion{
+	font-weight:bold;
+	font-size: 20px;
+	line-height: 1.5;
+	margin-top: 150px;
+	text-align: left;
+	color: white;
+	width: 600px;
+	justify-content:center;
+	margin-left: 100px;
+}
+.cableado{
+	width: 500px;
+	margin-top: -350px;
+	margin-right: 100px;
+	float: right;
+	transition:0.6s;
+	object-fit:cover;
+}
+.cableado:hover{
+		transform:scale(1.2)
+}
+.electrico{
+	margin-top: 120px;
+	margin-left: 12px;
+	background-color: blue;
+	padding: 30 30;
+	border-radius: 10px;
+	width: 1400px;
+}
+.edificio-i{
+	margin-top: 140px;
+	margin-left: 12px;
+	background-color: blue;
+	padding: 30 30;
+	border-radius: 10px;
+	width: 1400px;	
+}
+.control-a{
+	margin-top: 70px;
+	margin-left: 12px;
+	background-color: blue;
+	padding: 30 30;
+	border-radius: 10px;
+	width: 1400px;
+}
+.title-electrico{
+	color: white;
+	margin-top: 50px;
+	text-align: center;
+}
+.button-cableadoe{
+color: #f6f6fa;
+	text-decoration: none;
+	background-color:#1827a9;
+	font-size: 1.25em;
+	display: inline-block;
+	margin-top: 80px;
+	margin-left: 12px;
+	border-radius: 12px;
+	width: 1400px;
+	box-shadow: 0px 3px 0px #1827a9;
+	justify-content: center;
+}
+
+/*----------------------------------------------5 EDIFICIOS INTELIGENTES-------------------------------------------------*/
+.fondoe{
+	background:linear-gradient(rgba(5,7,12,0.30),rgba(5,7,12,0.30)),
+	url('camaras/fondo opcion2.jpg');
+	background-size: cover;
+	height: 900px;
+	margin-bottom: 10px;
+	border-radius: 40px;
+}
+.holding-edificios{
+	font-weight:bold;
+	font-size: 20px;
+	line-height: 1.5;
+    margin-top: 80px;
+	text-align: left;
+	color: white;
+	width: 700px;
+	margin-left: 100px;
+}
+.edificio{
+	width: 530px;
+	margin-right: 80px;
+	margin-top: -300px;
+	display: flex;
+	float: right;
+	transition:0.6s;
+	object-fit:cover;
+}
+.edificio:hover{
+		transform:scale(1.2)
+}
+.red-m{
+	margin-top: 30px;
+	margin-left: 12px;
+	background-color: blue;
+	padding: 30 30;
+	border-radius: 10px;
+	width: 1400px;	
+}
+.title-edificios{
+	color: white;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.button-edificios{
+	color: #f6f6fa;
+	text-decoration: none;
+	background-color:#1827a9;
+	font-size: 1.25em;
+	display: inline-block;
+	margin-top: 140px;
+	margin-left: 12px;
+	border-radius: 12px;
+	width: 1400px;
+	box-shadow: 0px 3px 0px #1827a9;
+	justify-content: center;
+}
+
+/*------------------------6 RED MULTISERVICIOS PARA TRANSMISION DE TV Y SEGURIDAD -----------------------------------*/
+.fondof{
+	background:linear-gradient(rgba(5,7,12,0.30),rgba(5,7,12,0.30)),
+	url('camaras/fondo opcion2.jpg');
+	background-size: cover;
+	height: 900px;
+	margin-bottom: 10px;
+	border-radius: 40px;
+}
+.holding-red{
+	font-weight:bold;
+	font-size: 20px;
+	line-height: 1.5;
+    margin-top: 40px;
+	text-align: center;
+	color: white;
+	width: 1000px;
+	margin-left: 200px;
+}
+.camaras{
+	width: 600px;
+	height: 350px;
+	margin-top: 10px;
+	margin-left: 200px;
+	margin-bottom: 25px;
+	display: flex;
+	float: top;
+	transition:0.6s;
+	object-fit:cover;
+}
+.camaras:hover{
+		transform:scale(1.2)
+}
+.title-red{
+	color: white;
+	text-align: center;
+	margin-top: 40px;
+}
+.button-red{
+	color: #f6f6fa;
+	text-decoration: none;
+	background-color:#1827a9;
+	font-size: 1.25em;
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 12px;
+	border-radius: 12px;
+	width: 1400px;
+	box-shadow: 0px 3px 0px #1827a9;
+	justify-content: center;
+}
+
+/*--------------------------------------------7CONTROL ACCESOS VEHICULAR ----------------------------------------------*/
+
+.fondoh{
+	background:linear-gradient(rgba(5,7,12,0.30),rgba(5,7,12,0.30)),
+	url('camaras/fondo opcion2.jpg');
+	background-size: cover;
+	height: 900px;
+	margin-bottom: 10px;
+	border-radius: 40px;
+}
+.control-accesos{
+	width: 370px;
+	margin-left: 150px;
+	margin-top: 30px ;
+	transition:0.6s;
+	object-fit:cover;
+}
+.control-accesos:hover{
+		transform:scale(1.3)
+}
+.portero{
+	width: 360px;
+	height: 320px;
+	margin-top: 50px;
+	margin-left: 800px;
+	transition:0.6s;
+	object-fit:cover;
+}
+.portero:hover{
+		transform:scale(1.3)
+}
+.video{
+	font-weight:bold;
+	font-size: 20px;
+	line-height: 1.5;
+	text-align: center;
+	justify-content:center ;
+	color:white;
+	width: 500px;
+	margin-top: -460px;
+	margin-left: 800px;
+}
+
+.holding-equipos{
+	font-weight:bold;
+	font-size: 20px;
+	line-height: 1.5;
+	margin-top: 50px;
+	text-align: center;
+	justify-content:center ;
+	color:white;
+	width: 500px;
+	margin-left: 100px;
+}
+.equipos-n{
+	margin-top: 100px;
+	margin-left: 12px;
+	background-color: blue;
+	padding: 30 30;
+	border-radius: 10px;
+	width: 1400px;
+}
+.title-control{
+	color: white;
+	text-align: center;
+	margin-top: 30px;
+}
+.button-control{
+color: #f6f6fa;
+	text-decoration: none;
+	background-color:#1827a9;
+	font-size: 1.25em;
+	display: inline-block;
+	margin-top: 70px;
+	margin-left: 12px;
+	border-radius: 12px;
+	width: 1400px;
+	box-shadow: 0px 3px 0px #1827a9;
+	justify-content: center;
+}
+/*-------------------------------------8 COMERCIALIZACIÓN DE EQUIPOS NETWORKING-----------------------------------------*/
+.fondog{
+	background:linear-gradient(rgba(5,7,12,0.30),rgba(5,7,12,0.30)),
+	url('camaras/fondo opcion2.jpg');
+	background-size: cover;
+	height: 900px;
+	margin-bottom: 10px;
+	border-radius: 40px;
+}
+.cisco{
+	width: 200px;
+	margin-left: 500px;
+	margin-top: -300px;
+	margin-right: 100px;
+	border-radius: 30px;
+	transition:0.6s;
+	object-fit:cover;
+}
+.cisco:hover{
+		transform:scale(1.3)
+}
+.d-link{
+	width: 200px;
+	margin-top: -300px;
+	margin-right: 100px;
+	border-radius: 30px;
+	transition:0.6s;
+	object-fit:cover;
+}
+.d-link:hover{
+		transform:scale(1.3)
+}
+.grandstream{
+	width: 200px;
+	margin-top: -300px;
+	border-radius: 30px;
+	transition:0.6s;
+	object-fit:cover;
+}
+.grandstream:hover{
+		transform:scale(1.3)
+}
+.holding-vehicular{
+	font-weight:bold;
+	font-size:20px;
+	line-height: 1.5;
+    margin-top: 100px;
+	text-align: left;
+	color: white;
+	width: 800px;
+	margin-left: 100px;
+}
+.control-a{
+	margin-top: 70px;
+	margin-left: 12px;
+	background-color: blue;
+	padding: 30 30;
+	border-radius: 10px;
+	width: 1400px;
+}
+.title-equipos{
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+}
+.button-comercializacion{
+	color: #f6f6fa;
+	text-decoration: none;
+	background-color:#1827a9;
+	font-size: 1.25em;
+	display: inline-block;
+	margin-top: 110px;
+	margin-left: 12px;
+	border-radius: 12px;
+	width: 1400px;
+	box-shadow: 0px 3px 0px #1827a9;
+	justify-content: center;
+}
+
+/*-----------------------------------------------fin-----------------------------------------------------------*/
+
+/*footer*/
+.container-footer{
+	margin-top: -20px;
+	display: flex;
+	border-radius: 40px;
+	background-color: #000;
+	background: url(camaras/fondoCuadrados.jpg);
+	opacity: 70%;
+	background-size: cover;
+}
+.img-footer{
+	margin-top:80px;
+	width: 30px;
+	display: flex;
+	margin-right: 200px;
+	display: flex;
+}
+.logo-redesw:hover{
+		transform:scale(1.3)
+}
+.logo-redesw{
+	width: 100px;
+	margin-left: 130px;
+	transition:0.6s;
+	object-fit:cover;
+}
+.logo-redesf{
+	width: 100px;
+	margin-left:170px;
+	display: flex;
+	transition:0.6s;
+	object-fit:cover;
+}
+.logo-redesf:hover{
+		transform:scale(1.3)
+}
+.logo-redesi:hover{
+		transform:scale(1.3)
+}
+.logo-redesi{
+	margin-top: 3px;
+	width: 100px;
+	margin-left: 200px;
+	display: flex;
+	transition:0.6s;
+	object-fit:cover;
+}
+.img-footer{
+	width: 500px;
+	display: flex;
+	margin-left: 400px;
+	margin-bottom: 50px;
+}
+.icons-w{
+	width: 100px;
+	text-decoration: none;
+	margin-left: 160px;
+	display: inline-block;
+	color: green;
+}
+.icons-f{
+	width: 100px;
+	text-decoration: none;
+	margin-left: 160px;
+	display: inline-block;
+
+}
+.icons-g{
+	width: 100px;
+	text-decoration: none;
+	margin-left: 160px;
+	display: inline-block;
+	color: tomato;
+}
+.direccion{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: gray;
+}
+.direccion-mei{
+	font-size: 25px;
+	color: gray;
+
+}
+
+/*fin footer*/
+
+
